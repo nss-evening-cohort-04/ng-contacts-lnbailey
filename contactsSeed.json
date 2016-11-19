@@ -1,0 +1,25 @@
+{
+	"people":{
+		"contact0":{
+			"name":"Herman Munster",
+			"address": "1313 Mockingbird Lane, Hollywood, CA",
+			"phone": "323-555-5555"
+		},
+		"contact1":{
+			"name":"Sherlock Holmes",
+			"address": "221 Baker St, London, England",
+			"phone": "01 44 207 224 3688"
+		},
+		"contact2":{
+			"name":"Bruce Wayne",
+			"address": "1007 Mountain Drive, Gotham City, NJ",
+			"phone": "212-123-4567"
+		},
+		"contact3":{
+			"name":"Fox Mulder",
+			"address": "2630 Hegal Place, Apt 42, Alexandria, Virginia",
+			"phone": "202-555-9355"
+		}
+	}
+}
+ 

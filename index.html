@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular Contact App</title>
+	<link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300|Oswald" rel="stylesheet">   
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body ng-app="ContactApp">
+	<h1>Ln's Angular Contact App</h1>
+	<h2>My Friends</h2>
+
+	<div ng-controller="ContactCtrl">
+        <div ng-repeat="person in people">
+            <p>{{person.name}}<br>{{person.address}}<br>{{person.phone}}</p>
+    	</div>
+
+	<!--     <h2>New Friend</h2>
+        <form>
+        <div>
+            <label>Name</label>
+            <input type="text" placeholder="Name" ng-model="newPerson.name">
+        </div>
+        <div>
+            <label>Address</label>
+            <input type="text" placeholder="Address" ng-model="newPerson.address">
+        </div>
+        <div>
+            <label>Phone</label>
+            <input type="text" placeholder="Phone" ng-model="newPerson.phone">
+        </div>
+            <button type="button" ng-click="addNewPerson()">New Contact</button>
+        </form>
+     -->
+	</div>
+
+
+	<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+	<script type="text/javascript" src="/lib/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="/lib/bower_components/angular/angular.min.js"></script>
+	<script src="/javascripts/app.js"></script>
+	<script src="/javascripts/AppConstants.js"></script>
+	<script src="/javascripts/factories/peopleFactory.js"></script>
+	<script src="/javascripts/AppConfig.js"></script>
+	<script src="/javascripts/controllers/ContactCtrl.js"></script>
+
+</body>
+</html>
